@@ -1,0 +1,56 @@
+@media only screen and (max-width: 1195px) {
+	.cont {
+	flex-direction: column;
+	height: auto;
+	width: 100%;
+	padding: 0 20px;
+	}
+	
+	form {
+	width: auto;
+	}
+	
+	
+	input,
+	textarea{
+	width: 100%;
+	}
+
+	.posicao{
+		position: absolute;
+		margin-top: 300px;
+	}
+
+	}
+	
+	@media only screen and (max-width: 700px) {
+	.cont {
+	width: 100%;
+	height: auto;
+	padding: 0 20px;
+	}
+	
+	form {
+	width: 100%;
+	height: auto;
+	}
+	
+	.texto h1 {
+	font-size: 24px;
+	}
+	
+	.texto p {
+	font-size: 16px;
+	}
+	
+	input,
+	textarea {
+	width: 100%;
+	margin-top: 10px;
+	}
+	
+	.posicao {
+	position: absolute;
+	margin-top: 340px;
+	}
+	}
